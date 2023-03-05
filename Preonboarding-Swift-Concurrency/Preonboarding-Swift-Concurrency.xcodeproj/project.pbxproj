@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA94EE2629B4DF5200EED8E7 /* ImageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94EE2529B4DF5200EED8E7 /* ImageAPI.swift */; };
+		DA94EE2829B4E2CF00EED8E7 /* RandomImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94EE2729B4E2CF00EED8E7 /* RandomImageResponse.swift */; };
+		DA94EE2A29B4F75900EED8E7 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94EE2929B4F75900EED8E7 /* UIImageView+.swift */; };
 		DAE7625929B25733008359E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7625829B25733008359E6 /* AppDelegate.swift */; };
 		DAE7625B29B25733008359E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7625A29B25733008359E6 /* SceneDelegate.swift */; };
 		DAE7625D29B25733008359E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE7625C29B25733008359E6 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA94EE2529B4DF5200EED8E7 /* ImageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAPI.swift; sourceTree = "<group>"; };
+		DA94EE2729B4E2CF00EED8E7 /* RandomImageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageResponse.swift; sourceTree = "<group>"; };
+		DA94EE2929B4F75900EED8E7 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
 		DAE7625529B25733008359E6 /* Preonboarding-Swift-Concurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Preonboarding-Swift-Concurrency.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE7625829B25733008359E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAE7625A29B25733008359E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				DAE7626129B25734008359E6 /* Assets.xcassets */,
 				DAE7626329B25734008359E6 /* LaunchScreen.storyboard */,
 				DAE7626629B25734008359E6 /* Info.plist */,
+				DA94EE2529B4DF5200EED8E7 /* ImageAPI.swift */,
+				DA94EE2729B4E2CF00EED8E7 /* RandomImageResponse.swift */,
+				DA94EE2929B4F75900EED8E7 /* UIImageView+.swift */,
 			);
 			path = "Preonboarding-Swift-Concurrency";
 			sourceTree = "<group>";
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE7625D29B25733008359E6 /* ViewController.swift in Sources */,
+				DA94EE2A29B4F75900EED8E7 /* UIImageView+.swift in Sources */,
 				DAE7625929B25733008359E6 /* AppDelegate.swift in Sources */,
+				DA94EE2829B4E2CF00EED8E7 /* RandomImageResponse.swift in Sources */,
+				DA94EE2629B4DF5200EED8E7 /* ImageAPI.swift in Sources */,
 				DAE7625B29B25733008359E6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
